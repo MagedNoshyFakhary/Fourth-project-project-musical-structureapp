@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Musical Structure master</string>
+    <!--bottom menu items-->
+    <string name="bottom_menu_tracks">Tracks</string>
+    <string name="bottom_menu_play">Play</string>
+    <string name="bottom_menu_album">Album</string>
+    <string name="bottom_menu_artist">Artist</string>
+    <string name="TracksActivity">Tracks Activity</string>
+    <string name="ArtistActivity">Artist Activity</string>
+    <string name="PlayActivity">Play Activity</string>
+    <string name="AlbumActivity">Album Activity</string>
+</resources>

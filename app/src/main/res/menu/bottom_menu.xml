@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_menu_tracks"
+        android:icon="@drawable/ic_audiotrack"
+        android:title="@string/bottom_menu_tracks" />
+    <item
+        android:id="@+id/bottom_menu_album"
+        android:icon="@drawable/ic_album"
+        android:title="@string/bottom_menu_album" />
+    <item
+        android:id="@+id/bottom_menu_play"
+        android:icon="@drawable/ic_play_arrow"
+        android:title="@string/bottom_menu_play" />
+    <item
+        android:id="@+id/bottom_menu_artist"
+        android:icon="@drawable/ic_account"
+        android:title="@string/bottom_menu_artist" />
+
+</menu>

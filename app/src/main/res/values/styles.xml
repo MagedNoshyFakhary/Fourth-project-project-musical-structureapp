@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#333</item>
+        <item name="colorPrimaryDark">#333</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+   <style name="MaterialDesignTheme" parent="android:Theme.Material.Light" tools:targetApi="lollipop">
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <item name="android:colorPrimary" tools:targetApi="lollipop">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark" tools:targetApi="lollipop">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/colorAccent</item>
+
+        <!--&lt;!&ndash;Cool stuff&ndash;&gt;-->
+        <item name="android:windowActivityTransitions" tools:targetApi="lollipop">true</item>
+        <item name="android:windowEnterTransition" tools:targetApi="lollipop">@android:transition/slide_right</item>
+        <item name="android:windowExitTransition" tools:targetApi="lollipop">@android:transition/slide_left</item>
+
+        <item name="windowActionBar">false</item>
+       <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="lollipop">true</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
+   </style>
+
+    <!--&lt;!&ndash;   AlbumList CardView Style  &ndash;&gt;-->
+    <style name="AlbumListCardView">
+        <item name="android:elevation" tools:targetApi="lollipop">@dimen/elevation</item>
+        <item name="android:layout_margin">@dimen/activity_margin</item>
+   </style>
+
+    <!--&lt;!&ndash;   AlbumList Title Style  &ndash;&gt;-->
+   <style name="AlbumListTitle">
+        <item name="android:paddingTop">@dimen/padding_albumTitleTop</item>
+        <item name="android:paddingLeft">@dimen/padding_albumTitleLeft</item>
+       <item name="android:layout_gravity">center_horizontal</item>
+       <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-condensed</item>
+    </style>
+
+    <!--&lt;!&ndash;   AlbumList Artist Style   &ndash;&gt;-->
+    <style name="AlbumListArtist">
+        <item name="android:paddingLeft">@dimen/padding_albumArtistLeft</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+       <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+   </style>
+
+    <!--&lt;!&ndash;   ListView Style  &ndash;&gt;-->
+    <style name="ListViewTemplate">
+        <item name="android:layout_marginTop">@dimen/listView_marginTop</item>
+       <item name="android:layout_marginBottom">@dimen/listView_marginBottom</item>
+       <item name="android:orientation">vertical</item>
+   </style>
+
+
+    <!--&lt;!&ndash;Now Playing CardViw Style&ndash;&gt;-->
+    <style name="NowPlayingTemplate">
+        <item name="android:layout_marginTop">@dimen/nowPlaying_marginTop</item>
+        <item name="android:layout_marginLeft">@dimen/nowPlaying_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/nowPlaying_marginRight</item>
+    </style>
+
+</resources>
